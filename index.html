@@ -1,132 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>ANG Fire Protection LLC</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ANG Fire Protection</title>
 
-<style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0b1116;
-  color: white;
-}
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #020617;
+      color: white;
+    }
 
-/* HERO IMAGE */
-.hero {
-  height: 55vh;
-  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.75)),
-              url('hero.png') center/cover no-repeat;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  text-align: center;
-  padding-bottom: 30px;
-}
+    .hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 0 8%;
+      background:
+        linear-gradient(rgba(2,6,23,0.6), rgba(2,6,23,0.85)),
+        url('hero.png') center/cover no-repeat;
+    }
 
-/* TEXT ON IMAGE */
-.hero-text {
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 1px;
-}
+    h1 {
+      font-size: 64px;
+      line-height: 1.05;
+      margin: 0;
+      max-width: 800px;
+    }
 
-/* SECTION */
-.section {
-  max-width: 1200px;
-  margin: 60px auto;
-  padding: 0 20px;
-}
+    p {
+      color: #cbd5e1;
+      font-size: 18px;
+      margin-top: 20px;
+      max-width: 600px;
+    }
 
-.section h2 {
-  font-size: 38px;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 40px;
-}
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 24px;
+      background: #dc2626;
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+    }
 
-/* GRID */
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
-}
+    .section {
+      padding: 80px 8%;
+    }
 
-/* CARDS */
-.card {
-  background: #111a22;
-  padding: 25px;
-  border-radius: 10px;
-}
-
-.card h3 {
-  margin-top: 0;
-  font-size: 18px;
-}
-
-.card p {
-  color: #bbb;
-  font-size: 14px;
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  padding: 40px 0;
-  font-size: 14px;
-  color: #aaa;
-}
-</style>
+    .footer {
+      padding: 40px 8%;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      color: #94a3b8;
+    }
+  </style>
 </head>
 
 <body>
 
-<!-- HERO -->
-<div class="hero">
-  <div class="hero-text">
-    Fire Sprinkler Design • BIM Coordination • Hydraulic Calculations
-  </div>
-</div>
+  <section class="hero">
+    <div>
+      <h1>
+        High-rise coordination experience.<br>
+        Clean, field-ready fire sprinkler design.
+      </h1>
 
-<!-- EXPERIENCE -->
-<div class="section">
-  <h2>Project Experience</h2>
-
-  <div class="grid">
-
-    <div class="card">
-      <h3>High-Rise BIM Coordination</h3>
-      <p>Experience supporting high-rise work where routing, overhead congestion, and multi-trade coordination directly affect schedule and constructability.</p>
-    </div>
-
-    <div class="card">
-      <h3>Luxury Mid-Rise Residential Development</h3>
-      <p>Large-scale residential project experience with complex layout demands, major system coordination, and field-driven drawing development.</p>
-    </div>
-
-    <div class="card">
-      <h3>Single Interlock Preaction System</h3>
-      <p>Experience supporting preaction system design in a data room environment where coordination, obstructions, and system intent matter.</p>
-    </div>
-
-    <div class="card">
-      <h3>Core Focus</h3>
       <p>
-        • Fire Sprinkler Design<br>
-        • BIM Coordination<br>
-        • Hydraulic Calculations<br>
-        • Installation-Ready Layouts
+        Fire sprinkler design, BIM coordination, and hydraulic calculations
+        for commercial, residential, and high-rise projects.
       </p>
+
+      <a href="mailto:alvaro.generali0@gmail.com" class="btn">
+        Request a Quote
+      </a>
     </div>
+  </section>
 
-  </div>
-</div>
+  <section class="section">
+    <h2>Services</h2>
+    <p>
+      Fire sprinkler design • BIM coordination • Hydraulic calculations
+    </p>
+  </section>
 
-<!-- FOOTER -->
-<footer>
-  <p>alvaro@angfp.com | (973) 474-6024</p>
-</footer>
+  <section class="section">
+    <h2>Featured Project</h2>
+    <p>
+      Luxury mid-rise residential development requiring coordination-driven
+      sprinkler design and clean routing through dense MEP conditions.
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Contact</h2>
+    <p>Email: alvaro.generali0@gmail.com</p>
+    <p>Phone: 973-474-6024</p>
+  </section>
+
+  <footer class="footer">
+    © 2026 ANG Fire Protection
+  </footer>
 
 </body>
 </html>
